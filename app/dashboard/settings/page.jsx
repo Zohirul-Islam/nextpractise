@@ -1,3 +1,5 @@
+
+import Button from "@/app/components/Button";
 import React from "react";
 
 const Settings = () => {
@@ -10,6 +12,7 @@ const Settings = () => {
         maiores omnis. Officia quasi id exercitationem molestias debitis
         voluptatem laborum, quae tempore voluptates.
       </p>
+      <Button>Go to Dashboard</Button>
     </div>
   );
 };
