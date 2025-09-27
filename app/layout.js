@@ -30,6 +30,8 @@ export default function RootLayout({ children }) {
             <li><CustomLink path={'/dashboard'}>dashboard</CustomLink></li>
             <li><CustomLink path={'/dashboard/settings'}>Settings</CustomLink></li>
             <li><CustomLink path={'/posts'}>posts</CustomLink></li>
+            <li><CustomLink path={'/about'}>about</CustomLink></li>
+            <li><CustomLink path={'/blog'}>blog</CustomLink></li>
           </ul>
         </nav>
         {children}
