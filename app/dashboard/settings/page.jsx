@@ -3,7 +3,7 @@ import Button from "@/app/components/Button";
 import React from "react";
 
 const Settings = () => {
-  throw new Error("error occured in settings page")
+ 
   return (
     <div className="container mx-auto">
       <h1 className="py-5 text-5xl font-bold">settings</h1>
